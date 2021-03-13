@@ -5,8 +5,8 @@ USER node
 COPY --chown=node:node package.json /home/node/netlify-cli/package.json
 
 WORKDIR /home/node/netlify-cli
-RUN /usr/local/bin/npm \
-    && /usr/local/bin/npm cache clean
+RUN /usr/local/bin/yarn \
+    && /usr/local/bin/yarn cache clean
 
 WORKDIR /project
 
