@@ -5,7 +5,7 @@ npm package installed for direct use in [Gitlab CI Pipelines](https://docs.gitla
 It took the actual deploy stage of my pipelines down from 3.5 minutes to under 30 seconds.
 
 # Updates
-This conntainer updates nightly if there is a new version of Netlify CLI available.
+Updates daily if there is a new version of Netlify CLI available.
 
 # Usage
 Example usage in `.gitlab-ci.yml`
