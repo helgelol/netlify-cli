@@ -1,4 +1,4 @@
-name: ci
+name: Update, build & push
 
 on:
   push:
