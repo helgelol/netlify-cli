@@ -1,7 +1,7 @@
 # netlify-cli
 
 A  Node.js container with the [Netlify CLI](https://docs.netlify.com/cli/get-started/) 
-npm package installed for direct use in [Gitlab CI Pipelines](https://docs.gitlab.com/ee/ci/).  
+npm package installed for direct use in pipelines.  
 It took the actual deploy stage of my pipelines down from 3.5 minutes to under 30 seconds.
 
 # Updates
