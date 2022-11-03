@@ -15,4 +15,4 @@ WORKDIR /project
 
 ENTRYPOINT ["/home/node/docker-netlify-cli/node_modules/.bin/netlify"]
 
-LABEL org.opencontainers.image.authors="Helge Johansen <helge@kubes.no>"
+LABEL org.opencontainers.image.authors="Helge Falch <helge@kubes.no>"
