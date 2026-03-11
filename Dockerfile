@@ -2,8 +2,7 @@ FROM node:24
 
 USER node
 
-ENV NETLIFY_AUTH_TOKEN="" \
-    PATH="/home/node/docker-netlify-cli/node_modules/.bin:${PATH}"
+ENV PATH="/home/node/docker-netlify-cli/node_modules/.bin:${PATH}"
 
 COPY --chown=node:node package.json /home/node/docker-netlify-cli/package.json
 
